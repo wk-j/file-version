@@ -1,5 +1,7 @@
 ## File Version
 
+[![Build Status](https://dev.azure.com/wk-j/file-version/_apis/build/status/wk-j.file-version)](https://dev.azure.com/wk-j/file-version/_build/latest?definitionId=13)
+
 ## Installation
 
 ```bash
