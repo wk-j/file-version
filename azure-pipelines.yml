@@ -9,7 +9,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   project: 'src/FileVersion/FileVersion.csproj'
-  testProject: 'test/FileVersion.Tests/FileVersion.Tests.csproj'
+  testProject: 'tests/FileVersion.Tests/FileVersion.Tests.csproj'
 
 steps:
 - script: dotnet build $(project)
