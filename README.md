@@ -1,6 +1,7 @@
 ## File Version
 
 [![Build Status](https://dev.azure.com/wk-j/file-version/_apis/build/status/wk-j.file-version)](https://dev.azure.com/wk-j/file-version/_build/latest?definitionId=13)
+[![NuGet](https://img.shields.io/nuget/v/wk.FileVersion.svg)](https://www.nuget.org/packages/wk.FileVersion)
 
 ## Installation
 
@@ -10,7 +11,7 @@ dotnet add package wk.FileVersion
 
 ## Usage
 
-```bash
+```csharp
 var v = Parser
     .From("src/FileVersion.1.0.1.zip")
     .Remove(".zip")
