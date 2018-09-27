@@ -12,9 +12,9 @@ dotnet add package wk.FileVersion
 ## Usage
 
 ```csharp
-var v = Parser
-    .From("src/FileVersion.1.0.1.zip")
+var parser = Parser
+    .FromPath("src/FileVersion.1.0.1.zip")
     .Remove(".zip")
     .Remove("FileVersion.");
-Assert.Equal("1.0.1", v.Version);
+Assert.Equal("1.0.1", parser.Version);
 ```
